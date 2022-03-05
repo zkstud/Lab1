@@ -10,8 +10,7 @@ public class Main {
         Account acc = new Account();
         acc.setName("zakhar kolesnychenko");
         System.out.println(acc.getName());
-//      acc.name = "Zakhar Kolesnychenko"; - nie zadziala, poniewaz zmienna "name" jest prywatna,
-//      i nie dostepna na zewnatrz.
+//      acc.name = "Zakhar Kolesnychenko"; - nie zadziala jezeli zmienna "name" jest prywatna i nie dostepna na zewnatrz.
         System.out.printf("%s%n", Account.capitalize("zakhar kolesnychenko"));
         System.out.printf("%s%n", Account.translit("тест теста перетестований"));
         System.out.printf("%s%n", Account.translit("вашингтон"));
